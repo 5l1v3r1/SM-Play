@@ -84,10 +84,10 @@ elif [ $opt -eq 6 ];then
 clear
 echo -e "\e[1;34m Created By Suman\e[0m"
 echo -e "\e[4;32m This Player Was Created By SUMAN \e[0m"
-echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
-echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
-echo -e "\e[1;31m       Whatsapp: https://bit.do/speedxgit \e[0m"
-echo -e "\e[1;33m   YouTube Page: https://www.youtube.com/c/GyanaTech \e[0m"
+echo -e "\e[1;34m For Any Queries Telegram Message Me\e[0m"
+echo -e "\e[1;32m         Telegram: https://t.me/OnlineHacking \e[0m"
+echo -e "\e[1;31m          Webside: www.onlinehacking-net.cf \e[0m"
+echo -e "\e[1;33m       YouTube Page: https://bit.ly/on9youtube \e[0m"
 echo " "
 exit 0
 else
