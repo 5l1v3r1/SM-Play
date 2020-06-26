@@ -3,18 +3,12 @@ while :
 do
 clear
 echo -e "\e[1;31m"
-echo '┌──────────────────────────────────────────────────────┐'
-echo '│                                                      │'
-echo '│   ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄    ▄▄▄▄                           │'
-echo '│   ▀▀▀██▀▀▀  ██▀▀▀▀█▄  ▀▀██                           │'
-echo '│      ██     ██    ██    ██       ▄█████▄  ▀██  ███   │'
-echo '│      ██     ██████▀     ██       ▀ ▄▄▄██   ██▄ ██    │'
-echo '│      ██     ██          ██      ▄██▀▀▀██    ████▀    │'
-echo '│      ██     ██          ██▄▄▄   ██▄▄▄███     ███     │'
-echo '│      ▀▀     ▀▀           ▀▀▀▀    ▀▀▀▀ ▀▀     ██      │'
-echo '│                                             ███      │'
-echo '│                                                      │'
-echo '└──────────────────────────────────────────────────────┘'
+echo "   _____ __  ___            ____  __           ";
+echo "  / ___//  |/  /           / __ \/ /___ ___  __";
+echo "  \__ \/ /|_/ /  ______   / /_/ / / __ \`/ / / /";
+echo " ___/ / /  / /  /_____/  / ____/ / /_/ / /_/ / ";
+echo "/____/_/  /_/           /_/   /_/\__,_/\__, /  ";
+echo "                                      /____/   ";
 echo -e "\e[1;32m"
 echo 'Press 1 to  Install Dependencies'
 echo 'Press 2 to  Continue To TPlay'
@@ -36,7 +30,7 @@ pkg install termux-api
 termux-setup-storage
 if [[ -s $PREFIX/bin/termux-media-player ]] ;then
 echo 'All Dependencies installed...'
-read -p 'Do you want to add TPlay To bin (Y/N): ' ch
+read -p 'Do you want to add SM-Play To bin (Y/N): ' ch
 if [ "$ch" = "Y" ] || [ "$ch" = "y" ] ;then
 echo 'cd' $PWD '&& python2 music.py' >$PREFIX/bin/tplay
 echo 'exit' >$PREFIX/bin/tplay
@@ -67,7 +61,7 @@ echo -e 'Now You Can Launch TPlay just by typing \e[1;31mtplay\e[1;33m anywhere!
 read -p 'Press Enter Key To Continue..' k
 elif [ $opt -eq 4 ];then
 apt install git -y
-git clone https://github.com/TheSpeedX/TPlay
+https://github.com/OnlineHacKing/SM-Play
 echo -e "\e[1;34m Downloading Latest Files..."
 if [[ -s TPlay/setup.sh ]];then
 cd TPlay
@@ -88,8 +82,8 @@ cat README.md
 read -p 'Press Enter Key To Continue..' k
 elif [ $opt -eq 6 ];then
 clear
-echo -e "\e[1;34m Created By SpeedX\e[0m"
-echo -e "\e[4;32m This Player Was Created By SpeedX \e[0m"
+echo -e "\e[1;34m Created By Suman\e[0m"
+echo -e "\e[4;32m This Player Was Created By SUMAN \e[0m"
 echo -e "\e[1;34m For Any Queries Mail Me!!!\e[0m"
 echo -e "\e[1;32m           Mail: ggspeedx29@gmail.com \e[0m"
 echo -e "\e[1;31m       Whatsapp: https://bit.do/speedxgit \e[0m"
