@@ -12,8 +12,8 @@ echo "                                      /____/   ";
 echo -e "\e[1;32m"
 echo 'Press 1 to  Install Dependencies'
 echo 'Press 2 to  Continue To SM-Play'
-echo 'Press 3 to  Add TPlay To Bin'
-echo 'Press 4 to  Update TPlay  [Online Hacking'
+echo 'Press 3 to  Add SM-Play To Bin'
+echo 'Press 4 to  Update SM-Play  [Online Hacking'
 echo 'Press 5 for Help'
 echo 'Press 6 to  Exit'
 echo
