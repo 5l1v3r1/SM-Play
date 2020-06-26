@@ -11,9 +11,9 @@ echo "/____/_/  /_/           /_/   /_/\__,_/\__, /  ";
 echo "                                      /____/   ";
 echo -e "\e[1;32m"
 echo 'Press 1 to  Install Dependencies'
-echo 'Press 2 to  Continue To TPlay'
+echo 'Press 2 to  Continue To SM-Play'
 echo 'Press 3 to  Add TPlay To Bin'
-echo 'Press 4 to  Update TPlay'
+echo 'Press 4 to  Update TPlay  [Online Hacking'
 echo 'Press 5 for Help'
 echo 'Press 6 to  Exit'
 echo
@@ -63,17 +63,17 @@ elif [ $opt -eq 4 ];then
 apt install git -y
 git clone https://github.com/OnlineHacKing/SM-Play
 echo -e "\e[1;34m Downloading Latest Files..."
-if [[ -s TPlay/setup.sh ]];then
-cd TPlay
+if [[ -s SM-Play/setup.sh ]];then
+cd SM-Play
 cp -r -f * .. > temp
 cd ..
-rm -rf  TPlay >> temp
+rm -rf  SM-Play >> temp
 rm update.speedx >> temp
 rm temp
 chmod +x setup.sh
 ./setup.sh
 fi
-echo -e "\e[1;32m The Script Will Now Restart Please Choose Install Depedencies (option 1) To Verify the Working Of TPlay..."
+echo -e "\e[1;32m The Script Will Now Restart Please Choose Install Depedencies (option 1) To Verify the Working Of SM-Play..."
 echo -e "\e[1;34m Press Enter To Proceed To Restart..."
 read a6
 exit
