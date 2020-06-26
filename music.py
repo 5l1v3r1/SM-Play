@@ -301,6 +301,14 @@ while n < len(p):
 		ref                   - Refreshes The Screen
 		remove <track_number> - Removes Song With Respective Number From PlayList
 		sort                  - Sort The List According To Path    [OnlineHacKing]
+		
+         ■□■□■□■□■□■□ Social Media □■□■□■□■□■□■
+
+         Website :- http://www.onlinehacking-net.cf
+         YouTube Channel :- https://bit.ly/on9youtube
+         Telegram Change :- https://t.me/OnlineHacking
+         Github :- https://github.com/OnlineHacKing
+         Facebook :-  https://bit.ly/facebook4page
 
 """
 		else:
