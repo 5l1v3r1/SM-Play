@@ -16,7 +16,7 @@ Twitter: <a href="https://twitter.com/suman333mondal">@suman333mondal</a>
 Github: <a href="https://github.com/OnlineHacking">@OnlineHacking</a>
 Telegram: <a href="https://t.me/OnlineHacking">@OnlineHacking</a>
 
-![unnamed (2)](https://i.pinimg.com/originals/5b/46/b2/5b46b2ad5b4b292295d395b98fa3eb3c.png)
+![unnamed (2)](https://i.pinimg.com/originals/34/5d/f8/345df8243113189d871078c2f406163d.png)
 
 
 ### ☢️ PREREQUISITES
@@ -80,7 +80,7 @@ Available Commands are:---
           sort                  - Sort The List According To Path   
 
 ### 📱SCREENSHOT 📲
-![Shot](https://i.pinimg.com/originals/1a/08/7c/1a087cada9a414c70a360ea5cfbb9140.png)
+![Shot](https://i.pinimg.com/originals/ff/86/61/ff86619dce22d3beffe1bb4d0dcced5f.png)
 
 
 ### Subscribe our channel on youtube
