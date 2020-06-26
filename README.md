@@ -63,9 +63,21 @@ $ chmod +x *
 ```
 $ bash setup.sh
 ```
-ex:- python ipdrone.py -v 127.0,0.1
+### Help
 
-Hurray... you got his location with some more information
+Available Commands are:---
+         play                  - Plays Paused Music 
+          play <track_number>   - Plays The Song With That Track Number ( EX- play 3 )
+          pause                 - Pauses Playing Music
+          next                  - Plays Next Song   
+          prev                  - Plays Previous Song    
+          random                - Plays Random Song   
+          quit / exit           - Stops Playing Music And Exits Player  
+          info                  - Gets Info of Currently Playing Song  
+          reload                - Rescans The Phone Memory For MP3 files and creates A New List
+          ref                   - Refreshes The Screen  
+          remove <track_number> - Removes Song With Respective Number From PlayList
+          sort                  - Sort The List According To Path   
 
 ### 📱SCREENSHOT 📲
 ![Shot](https://i.pinimg.com/originals/1a/08/7c/1a087cada9a414c70a360ea5cfbb9140.png)
