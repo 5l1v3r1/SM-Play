@@ -2,9 +2,9 @@
   <img src="https://i.pinimg.com/originals/54/19/02/541902f716f7edd427cfa5a9e1230be6.png">  
 </p>
 
-<h1 align="center">IP Location Generator - OnlineHacking</h1>
+<h1 align="center">Termux Music Player - OnlineHacking</h1>
 <p align="center">
-  Location Generator 
+  MP3 Music Player for Termux/Terminal 
 </p>
 
 <a href="https://t.me/OnlineHacking"><img src="https://img.shields.io/badge/telegram-Mr.Suman || OnlineHacking-blue.svg">
@@ -46,25 +46,22 @@ $ pkg install python2 -y
 $ pkg install git -y
 ```
 ```
-$ pip install requests
+$ ls
+```
+```
+$ git clone https://github.com/OnlineHacKing/SM-Play.git
 ```
 ```
 $ ls
 ```
 ```
-$ git clone https://github.com/OnlineHacKing/IpDorp.git
+$ cd SM-Play
 ```
 ```
-$ ls
+$ chmod +x *
 ```
 ```
-$ cd IpDorp
-```
-```
-$ ls
-```
-```
-$ python IpDorp.py -v (your victim ip here)
+$ bash setup.sh
 ```
 ex:- python ipdrone.py -v 127.0,0.1
 
