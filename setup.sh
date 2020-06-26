@@ -61,7 +61,7 @@ echo -e 'Now You Can Launch TPlay just by typing \e[1;31mtplay\e[1;33m anywhere!
 read -p 'Press Enter Key To Continue..' k
 elif [ $opt -eq 4 ];then
 apt install git -y
-https://github.com/OnlineHacKing/SM-Play
+git clone https://github.com/OnlineHacKing/SM-Play
 echo -e "\e[1;34m Downloading Latest Files..."
 if [[ -s TPlay/setup.sh ]];then
 cd TPlay
