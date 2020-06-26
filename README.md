@@ -18,7 +18,11 @@ Telegram: <a href="https://t.me/OnlineHacking">@OnlineHacking</a>
 
 ![unnamed (2)](https://i.pinimg.com/originals/34/5d/f8/345df8243113189d871078c2f406163d.png)
 
+### ☢️ Requirements
 
+-Termux (Can Be Installed From PlayStore)
+
+-Termux:API (Can Be Installed From PlayStore)
 
 # ■□■□■□■□■□■□ Commands □■□■□■□■□■□■
 
