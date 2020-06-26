@@ -31,22 +31,22 @@ Telegram: <a href="https://t.me/OnlineHacking">@OnlineHacking</a>
 
 ### ☣️ Installation and Usage Guide
 ```
-$ apt-get update -y
+$ apt update && apt upgrade
 ```
 ```
-$ apt-get upgrade -y
+$ pkg install termux-api
 ```
 ```
-$ pkg install python -y 
+$ termux-setup-storage
 ```
 ```
-$ pkg install python2 -y
+$ pkg install python2
 ```
 ```
-$ pkg install git -y
+$ pkg install git
 ```
 ```
-$ ls
+$ apt install figlet git toilet curl python2 -y
 ```
 ```
 $ git clone https://github.com/OnlineHacKing/SM-Play.git
