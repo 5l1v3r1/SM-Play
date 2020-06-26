@@ -78,7 +78,31 @@ echo -e "\e[1;34m Press Enter To Proceed To Restart..."
 read a6
 exit
 elif [ $opt -eq 5 ];then
-cat README.md
+echo ' '
+echo ' Available Commands are:--- '
+echo '         play                  - Plays Paused Music   [OnlineHacKing] '
+echo '          play <track_number>   - Plays The Song With That Track Number ( EX- play 3 ) '
+echo '          pause                 - Pauses Playing Music    [OnlineHacKing] '
+echo '          next                  - Plays Next Song    [OnlineHacKing] '
+echo '          prev                  - Plays Previous Song    [OnlineHacKing] '
+echo '          random                - Plays Random Song    [OnlineHacKing] '
+echo '          quit / exit           - Stops Playing Music And Exits Player    [OnlineHacKing] '
+echo '          info                  - Gets Info of Currently Playing Song    [OnlineHacKing] '
+echo '          reload                - Rescans The Phone Memory For MP3 files and creates A New List '
+echo '          ref                   - Refreshes The Screen    [OnlineHacKing] '
+echo '          remove <track_number> - Removes Song With Respective Number From PlayList '
+echo '          sort                  - Sort The List According To Path    [OnlineHacKing] '
+echo ' '
+echo '    ■□■□■□■□■□■□ Social Media □■□■□■□■□■□■ '
+echo ' '
+echo '   Website :- http://www.onlinehacking-net.cf '
+echo '    YouTube Channel :- https://bit.ly/on9youtube '
+echo '    Telegram Change :- https://t.me/OnlineHacking '
+echo '    Telegram Group :- https://t.me/OnlineHacking0 '
+echo '    Github :- https://github.com/OnlineHacKing '
+echo '    Facebook :-  https://bit.ly/facebook4page '
+echo '    Twitter :- https://bit.ly/twittersuman '
+echo '    Instagram :- https://bit.ly/instagram9oh '
 read -p 'Press Enter Key To Continue..' k
 elif [ $opt -eq 6 ];then
 clear
